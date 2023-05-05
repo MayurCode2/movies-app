@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lustria&display=swap");
+.wrapper {
+  height: 70vh;
+  width: 87.5vw;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 8vh;
+  z-index: 100;
+  padding-top: 8vh;
+  font-family: "Lustria", serif;
+  color: white;
+}
+.wrapper img {
+  height: 70vh;
+}
+.wrapper .right {
+  margin-left: 5vw;
+  font-size: 30px;
+}
+.wrapper .right .top {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.wrapper .right .top h2 {
+  font-size: 65px;
+}
+.wrapper .right .movieDetails {
+  margin-bottom: 2vh;
+}
+.wrapper .right .cast {
+  margin-bottom: 3vh;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
